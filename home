@@ -1,0 +1,219 @@
+<?= $this->extend('layout/template'); ?>
+
+<?= $this->section('content'); ?>
+
+<!-- jumbotron gaes -->
+<div class="jumbotron jumbotron-fluid">
+
+</div>
+<!--  ahir jumbotron gaes -->
+
+<!-- font aweseome lur -->
+
+<link href="<?= base_url(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+
+<!-- akhir font awesome -->
+
+
+<!-- Konten gaes -->
+
+<div class="container">
+    <div class="container home-content">
+        <div class="home-text">
+            <h1>Halo,</h1>
+            <h2>Selamat Datang di PPID Kab.Pemalang</h2>
+            <p>Komplek Pendopo, Jl. Suro Hadikusumo, Kebondalem, Kec. Pemalang, Kabupaten Pemalang, Jawa Tengah 52312</p>
+            <a class="btn btn selanjutnya " href="/pages/beranda">selanjutnya &nbsp;<i class="fas fa-chevron-circle-right"></i></a>
+        </div>
+        <div class="home-img">
+            <img src="/img/bg.png" alt="gambar-bg">
+        </div>
+    </div>
+</div>
+<!-- Slider lur -->
+ <!-- Start: Content -->
+
+ <!-- <div class="top-slider">
+    <div class="top-slider-item">
+        <div class="container">
+            <div class="row"> -->
+                <!-- <div class="col-xs-0 col-sm-6">
+                    <img src="http://ppid.tegalkab.go.id/upload/slider/logo-kominfo.png" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6"> -->
+                    <!-- <div class="top-slider">
+                        <div class="top-slider-title">SELAMAT DATANG - PPID KAB TEGAL</div>
+                        <div class="top-slider-text">
+                            Website PPID (Pejabat Pengelola Informasi dan Dokumentasi) Kabupaten Tegal.
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+            <!-- </div>
+        </div>
+    </div>
+    <div class="top-slider-item">
+        <div class="container">
+            <div class="row"> -->
+                <!-- <div class="col-xs-0 col-sm-6">
+                    <img src="images/woman.png" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6"> -->
+                    <!-- <div class="top-slider-caption">
+                        <div class="top-slider-title">PUSAT PELAYANAN INFORMASI PUBLIK</div>
+                        <div class="top-slider-text">
+                            Mewujudkan transparansi dan akuntabilitas dalam penyelenggaraan pemerintahan Kabupaten Tegal <br>
+                            (Transparan, Akuntabel, Integritas dan Gotong royong)
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+            <!-- </div>
+        </div>
+    </div>
+    <div class="top-slider-item">
+        <div class="container">
+            <div class="row"> -->
+                <!-- <div class="col-xs-0 col-sm-6">
+                    <img src="images/woman.png" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6"> -->
+                    <!-- <div class="top-slider-caption">
+                        <div class="top-slider-title">PUSAT PELAYANAN INFORMASI PUBLIK</div>
+                        <div class="top-slider-text">
+                            Mewujudkan transparansi dan akuntabilitas dalam penyelenggaraan pemerintahan Kabupaten Tegal <br>
+                            (Transparan, Akuntabel, Integritas dan Gotong royong)
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+            <!-- </div>
+        </div>
+    </div>
+</div> -->
+<section>
+
+</section>
+
+<!-- Akhir Slider -->
+
+
+<div class="panel-berita">
+    <div class="header-text">
+        <div class="section-title">Berita Terkini</div>
+    </div>
+</div>
+
+
+<!-- BERITA -->
+
+<section class="content-allberita">
+    <div class="row content-berita">
+        <div class="col-lg-4 ">
+            <div class="content-img">
+                <img src="/img/cor.jpeg" alt="content-berita" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="content-text">
+                <h3 class="content-title">Satgas Benarkan Adanya Delay dan Data Kasus Covid-19 Jawa Tengah</h3>
+                <div class="content-date">
+                    <span>Minggu,</span>
+                    <span>27 Januari 2021</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa veritatis, dolorum nam ex, nesciunt officia magnam deserunt optio fugiat est, ducimus nulla labore vitae tempore quos illo non sit consequatur?<a href="#" class="next">&nbsp;[...]</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row content-berita">
+        <div class="col-lg-4 ">
+            <div class="content-img">
+                <img src="/img/ganjar.jpg" alt="content-berita" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="content-text">
+                <h3 class="content-title">Satgas Benarkan Adanya Delay dan Data Kasus Covid-19 Jawa Tengah</h3>
+                <div class="content-date">
+                    <span>Minggu,</span>
+                    <span>27 Januari 2021</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa veritatis, dolorum nam ex, nesciunt officia magnam deserunt optio fugiat est, ducimus nulla labore vitae tempore quos illo non sit consequatur?<a href="#" class="next">&nbsp;[...]</a>
+                </p>
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row content-berita">
+        <div class="col-lg-4 ">
+            <div class="content-img">
+                <img src="/img/bp.jpg" alt="content-berita" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="content-text">
+                <h3 class="content-title">Satgas Benarkan Adanya Delay dan Data Kasus Covid-19 Jawa Tengah</h3>
+                <div class="content-date">
+                    <span>Minggu,</span>
+                    <span>27 Januari 2021</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa veritatis, dolorum nam ex, nesciunt officia magnam deserunt optio fugiat est, ducimus nulla labore vitae tempore quos illo non sit consequatur?<a href="/pages/berita" class="next">&nbsp;[...]</a>
+                </p>
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-6 justify-content-center d-flex">
+            <div class="othernews">
+                <a href="/pages/berita" class="next"> Lihat berita lainnya </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- panel link -->
+<div class="panel-berita">
+    <div class="header-text">
+    <div class="section-title">Link Terkait</div>
+    </div>
+
+</div>
+<!-- Link terkait -->
+<div class="others-link-section roundedShadow">
+<!-- <div class="others-link-section roundedShadow"> -->
+    <div class="container-logo">
+        <div class="row-md-4">
+            <div class="col-md">
+                
+     
+        <div class="others-link-carousel">
+                    <a href="https://jdih.pemalangkab.go.id" target=_blank JDIH Kab. Pemalang><img src="/img/jdih.png"></a>
+                    <a href="http://data.pemalangkab.go.id" target=_blank Open Data Kab. Pemalang><img src="/img/opendata.png"></a>
+                    <a href="https://lpse.pemalangkab.go.id" target=_blank Lpse Kab. Pemalang><img src="/img/lpse.jpg"></a>
+                    <a href="https://monev.pemalangkab.go.id/" target=_blank Monev Kab. Pemalang><img src="/img/monevkab.png"></a>
+                    <a href="http://e-planning.pemalangkab.go.id" target=_blank E-Learning Kab. Pemalang><img src="/img/EPLNG.png"></a>
+                    <a href="http://ppid.jatengprov.go.id" target=_blank PPID Prov. Jateng><img src="/img/portal.png"></a>
+                </div>
+                </div>
+                </div>        
+    </div>
+</div>
+
+<!-- Akhir Link terkait -->
+
+
+
+<?= $this->endSection(); ?>
