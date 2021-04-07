@@ -1,0 +1,36 @@
+/* ==========BERITA=========== */
+
+  .content-berita {
+    font-size: 24;
+  }
+}
+@media (max-width: 500px) {
+  .others-link-carousel a {
+    /* display: block; */
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    padding-top: -30px;
+    height: 100px;
+  }
+  .col-logo {
+    padding-top: -60px;
+    /* background-color: blue; */
+  }
+  .others-link-carousel a:hover {
+    opacity: 0.9;
+  }
+}
+@media (max-width: 385px) {
+  .others-link-carousel a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    padding-top: -30px;
+    height: 100px;
+  }
+  .col-logo {
+    padding-top: -60px;
+    /* background-color: blue; */
+  }
